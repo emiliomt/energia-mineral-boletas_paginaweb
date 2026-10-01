@@ -1,15 +1,15 @@
 const reasons = [
   {
-    title: 'Fewer redundancies',
-    body: 'Data is captured once at the source instead of being retyped across logs, spreadsheets and reports.',
+    title: 'Menos redundancias',
+    body: 'Los datos se capturan una sola vez desde el origen, en lugar de volver a escribirse en registros, hojas de cálculo e informes.',
   },
   {
-    title: 'Stronger security',
-    body: 'Access requires a login, and every ticket leaves a traceable record — making lost, altered or duplicated tickets easy to spot.',
+    title: 'Mayor seguridad',
+    body: 'El acceso requiere iniciar sesión y cada boleta deja un registro rastreable, lo que facilita detectar boletas perdidas, alteradas o duplicadas.',
   },
   {
-    title: 'Better inventory tracking',
-    body: 'Inventory reflects what actually left the mine, in near real time, so decisions are based on current numbers.',
+    title: 'Mejor control del inventario',
+    body: 'El inventario refleja lo que realmente salió de la mina, casi en tiempo real, para que las decisiones se basen en cifras actuales.',
   },
 ]
 
@@ -19,10 +19,10 @@ export function WhyItMatters() {
       <div className="grid gap-12 md:grid-cols-[1fr_2fr]">
         <div className="flex flex-col gap-3">
           <h2 id="why-title" className="text-balance text-3xl font-semibold tracking-tight">
-            Why it matters
+            Por qué importa
           </h2>
           <p className="text-pretty leading-relaxed text-muted-foreground">
-            In mining logistics, a single miscounted load affects billing, planning and trust.
+            En la logística minera, una sola carga mal contabilizada afecta la facturación, la planificación y la confianza.
           </p>
         </div>
         <ul className="flex flex-col divide-y divide-border">

@@ -9,7 +9,7 @@ const fields = [
 
 export function TicketScan() {
   return (
-    <figure className="relative mx-auto w-full max-w-sm" aria-label="Illustration of a transportation ticket being scanned">
+    <figure className="relative mx-auto w-full max-w-sm" aria-label="Ilustración de una boleta de transporte siendo escaneada">
       <div className="relative overflow-hidden rounded-xl border border-border bg-card shadow-sm">
         <div className="flex items-center justify-between border-b border-dashed border-border px-5 py-3">
           <span className="font-mono text-xs uppercase tracking-widest text-muted-foreground">Boleta de transporte</span>
@@ -38,7 +38,7 @@ export function TicketScan() {
         />
       </div>
       <figcaption className="sr-only">
-        A sample ticket showing folio, plates, material, net weight, origin and destination fields extracted automatically.
+        Ejemplo de una boleta con folio, placas, material, peso neto, origen y destino extraídos automáticamente.
       </figcaption>
     </figure>
   )

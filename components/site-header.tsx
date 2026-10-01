@@ -11,12 +11,12 @@ export function SiteHeader() {
           </span>
           Boletas Energia Mineral
         </a>
-        <nav aria-label="Main" className="flex items-center gap-6 text-sm">
+        <nav aria-label="Navegación principal" className="flex items-center gap-6 text-sm">
           <a href="#how" className="hidden text-muted-foreground transition-colors hover:text-foreground sm:inline">
-            How it works
+            Cómo funciona
           </a>
           <a href="#why" className="hidden text-muted-foreground transition-colors hover:text-foreground sm:inline">
-            Why it matters
+            Por qué importa
           </a>
           <a
             href={PROJECT_URL}
@@ -24,7 +24,7 @@ export function SiteHeader() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 font-medium text-primary hover:underline"
           >
-            Open app
+            Abrir aplicación
             <ArrowUpRight className="size-4" aria-hidden="true" />
           </a>
         </nav>

@@ -7,9 +7,9 @@ const _plexSans = IBM_Plex_Sans({ subsets: ['latin'], weight: ['400', '500', '60
 const _plexMono = IBM_Plex_Mono({ subsets: ['latin'], weight: ['400', '500'] })
 
 export const metadata: Metadata = {
-  title: 'Boletas Energia Mineral — Automated ticket scanning & inventory',
+  title: 'Boletas Energia Mineral — Tu inventario, simplificado',
   description:
-    'An automated workflow that scans coal transportation tickets for a mining company in northern Mexico and keeps its inventory up to date. Built by Emilio Montemayor.',
+    'Flujo de trabajo automatizado que escanea boletas de transporte de carbón para una empresa minera en el norte de México y mantiene su inventario actualizado. Creado por Emilio Montemayor.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="bg-background">
+    <html lang="es" className="bg-background">
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}

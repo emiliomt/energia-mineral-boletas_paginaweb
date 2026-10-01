@@ -6,9 +6,9 @@ export function SiteFooter() {
     <footer className="bg-primary text-primary-foreground">
       <div className="mx-auto flex max-w-6xl flex-col gap-10 px-6 py-16">
         <div className="flex flex-col gap-4">
-          <h2 className="text-balance text-3xl font-semibold tracking-tight">See it in action</h2>
+          <h2 className="text-balance text-3xl font-semibold tracking-tight">Conócelo en acción</h2>
           <p className="max-w-xl text-pretty leading-relaxed opacity-85">
-            The app is live and protected behind a login. Authorized users can sign in to scan tickets and review inventory.
+            La aplicación está activa y protegida con un inicio de sesión. Los usuarios autorizados pueden ingresar para escanear boletas y revisar el inventario.
           </p>
           <a
             href={PROJECT_URL}
@@ -22,7 +22,7 @@ export function SiteFooter() {
         </div>
         <div className="flex flex-col justify-between gap-2 border-t border-primary-foreground/20 pt-6 text-sm opacity-85 sm:flex-row">
           <p>
-            Made by <span className="font-semibold">Emilio Montemayor</span>
+            Creado por <span className="font-semibold">Emilio Montemayor</span>
           </p>
           <p>Boletas Energia Mineral</p>
         </div>

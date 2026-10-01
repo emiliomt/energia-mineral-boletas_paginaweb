@@ -3,18 +3,18 @@ import { ScanLine, ShieldCheck, Boxes } from 'lucide-react'
 const steps = [
   {
     icon: ScanLine,
-    title: 'Scan the ticket',
-    body: 'Each truck’s transportation ticket (boleta) is captured and its key data — folio, plates, material and weight — is extracted automatically.',
+    title: 'Escanea la boleta',
+    body: 'La boleta de transporte de cada camión se captura y sus datos clave — folio, placas, material y peso — se extraen automáticamente.',
   },
   {
     icon: ShieldCheck,
-    title: 'Validate the record',
-    body: 'The workflow checks for duplicates and inconsistencies before anything is saved, so the same load is never counted twice.',
+    title: 'Valida el registro',
+    body: 'El flujo de trabajo revisa duplicados e inconsistencias antes de guardar cualquier dato, para que la misma carga nunca se cuente dos veces.',
   },
   {
     icon: Boxes,
-    title: 'Update inventory',
-    body: 'Verified tickets flow straight into the inventory, giving the team a live view of how much coal has moved and where.',
+    title: 'Actualiza el inventario',
+    body: 'Las boletas verificadas pasan directamente al inventario, brindando al equipo una vista en tiempo real de cuánto carbón se ha movido y hacia dónde.',
   },
 ]
 
@@ -24,10 +24,10 @@ export function HowItWorks() {
       <div className="mx-auto flex max-w-6xl flex-col gap-12 px-6 py-16 md:py-20">
         <div className="flex max-w-2xl flex-col gap-3">
           <h2 id="how-title" className="text-balance text-3xl font-semibold tracking-tight">
-            How it works
+            Cómo funciona
           </h2>
           <p className="text-pretty leading-relaxed text-muted-foreground">
-            A paper ticket used to travel through several hands before reaching a spreadsheet. Now it takes three steps.
+            Antes, una boleta en papel pasaba por varias manos antes de llegar a una hoja de cálculo. Ahora solo toma tres pasos.
           </p>
         </div>
         <ol className="grid gap-8 md:grid-cols-3">
@@ -37,7 +37,7 @@ export function HowItWorks() {
                 <span className="flex size-10 items-center justify-center rounded-lg bg-secondary text-secondary-foreground">
                   <step.icon className="size-5" aria-hidden="true" />
                 </span>
-                <span className="font-mono text-xs text-muted-foreground">Step {i + 1}</span>
+                <span className="font-mono text-xs text-muted-foreground">Paso {i + 1}</span>
               </div>
               <h3 className="text-lg font-semibold">{step.title}</h3>
               <p className="leading-relaxed text-muted-foreground">{step.body}</p>
