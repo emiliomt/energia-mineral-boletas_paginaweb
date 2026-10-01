@@ -10,6 +10,7 @@ export function Hero() {
         <h1 className="text-balance text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
           Tu inventario, simplificado
         </h1>
+        <p className="text-lg font-medium text-primary">Nunca pierdas la cuenta</p>
         <p className="text-pretty text-lg leading-relaxed text-muted-foreground">
           Boletas Energia Mineral es un flujo de trabajo automatizado que lee las boletas de transporte de una empresa minera de carbón y las convierte en un inventario preciso y siempre actualizado.
         </p>
